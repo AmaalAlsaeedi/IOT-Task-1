@@ -1,0 +1,22 @@
+ESP32 Operating Algorithm
+
+To install the ESP32:
+
+1. In Arduino IDE, go to File> Preferences.
+2. Enter the following into the “Additional Board Manager URLs” field: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+3. Then, click the “OK” button.
+4. Open the Boards Manager. Go to Tools > Board > Boards Manager…
+5. Search for ESP32 and press install button for the “ESP32 by Espressif Systems“.
+6. it should be installed after a few seconds.
+7. Plug the ESP32 board to the computer. With Arduino IDE open.
+8. Select your Board in Tools > Board menu .
+9. Select the Port.
+10. Open File > Examples > WiFi (ESP32) > WiFiScan.
+11. A new sketch opens in Arduino IDE.
+12. Press the Upload button in the Arduino IDE. Wait a few seconds while the code compiles and uploads to your board.
+13. If everything went as expected, you should see a “Done uploading.” message.
+14. Open the Arduino IDE Serial Monitor at a baud rate of 115200.
+15. Press the ESP32 on-board Enable button and you should see the networks available near your ESP32.
+16. Press the “Upload” button in the Arduino IDE to upload your sketch.
+17. After you see the “Connecting….” message in your Arduino IDE, release the finger from the “BOOT” button.
+18. After that, you should see the “Done uploading” message.
